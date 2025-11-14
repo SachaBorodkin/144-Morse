@@ -1,0 +1,15 @@
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\bin\Debug\net8.0\114-Morse.exe
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\bin\Debug\net8.0\114-Morse.deps.json
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\bin\Debug\net8.0\114-Morse.runtimeconfig.json
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\bin\Debug\net8.0\114-Morse.dll
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\bin\Debug\net8.0\114-Morse.pdb
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.AssemblyInfoInputs.cache
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.AssemblyInfo.cs
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.csproj.CoreCompileInputs.cache
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.sourcelink.json
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.dll
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\refint\114-Morse.dll
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.pdb
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\114-Morse.genruntimeconfig.cache
+C:\Users\pi41dcg\Documents\GitHub\144-Morse\114-Morse\114-Morse\obj\Debug\net8.0\ref\114-Morse.dll
