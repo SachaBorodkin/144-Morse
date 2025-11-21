@@ -4,6 +4,42 @@ namespace morse
 {
     class Program
     {
+        public static char cipher(char ch, int key)
+        {
+            if (!char.IsLetter(ch))
+            {
+
+                return ch;
+            }
+
+            char d = char.IsUpper(ch) ? 'A' : 'a';
+            return (char)((((ch + key) - d) % 26) + d);
+
+
+        }
+
+
+        public static string Encipher(string input, int key)
+        {
+            string output = string.Empty;
+
+            foreach (char ch in input)
+                output += cipher(ch, key);
+
+            return output;
+        }
+
+        public static string Decipher(string input, int key)
+        {
+            return Encipher(input, 26 - key);
+        }
+
+
+       
+
+
+        
+   
         static Dictionary<char, string> morseCode = new Dictionary<char, string>()
 
             {
@@ -32,13 +68,15 @@ namespace morse
             };
         static void Main(string[] args)
         {
+            
             int choix1 = 0;
             int choix2 = 0;
             int nombre = 0;
+     
             Console.WriteLine("=== Couteau Suisse – Utilitaires ===");
             Console.WriteLine("1. Convertir du texte en code Morse");
             Console.WriteLine("2. Convertir des nombres entre différentes bases (Décimal <> Binaire <> Octal)");
-
+            Console.WriteLine("3. Chiffre Caesar");
             Console.Write("\nVeuillez entrer votre choix : ");
             try
             {
@@ -49,7 +87,7 @@ namespace morse
                 Console.WriteLine("veuillez ecrire un nombre");
                 throw new ArgumentException("Parameter cannot be string", nameof(choix1));
             }
-            if (choix1 > 2 || choix1 <= 0)
+            if (choix1 > 3 || choix1 <= 0)
             {
                 Console.WriteLine("veuillez ecrire un nombre entre 1 et 2");
                 throw new ArgumentException("Parameter cannot be less than 1 or bigger than 2", nameof(choix1));
@@ -255,6 +293,35 @@ namespace morse
                     }
 
                 }
+            }
+            else if (choix1 == 3) {
+
+                Console.WriteLine("Scribe seriem litterarum ad encryptandum:");
+                string UserString = Console.ReadLine();
+
+                Console.WriteLine("\n");
+
+                Console.Write("Clavem tuam inscribe : ");
+                int key = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\n");
+
+
+                Console.WriteLine("Data Encryptata");
+
+                string cipherText = Encipher(UserString, key);
+                Console.WriteLine(cipherText);
+                Console.Write("\n");
+
+                Console.WriteLine("Data Decrypta:");
+
+                string t = Decipher(cipherText, key);
+                Console.WriteLine(t);
+                Console.Write("\n");
+
+
+
+
+                Console.ReadKey();
             }
         }
     }

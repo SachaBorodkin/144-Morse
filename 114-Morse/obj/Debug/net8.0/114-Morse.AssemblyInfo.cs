@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("114-Morse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12ec2898f8053cfe91ba9137dbf9d6d106e4cb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be6de70785ea439f26c282364bb19b344b76bb30")]
 [assembly: System.Reflection.AssemblyProductAttribute("114-Morse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("114-Morse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
